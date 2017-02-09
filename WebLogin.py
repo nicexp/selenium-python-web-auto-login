@@ -10,7 +10,7 @@ while (local_time.tm_hour != 9) or (local_time.tm_min < 30):
 	print("curtime:hour:%d, min:%d"%(local_time.tm_hour, local_time.tm_min))
 	time.sleep(600)
 
-#Ë«ÐÝÈÕ
+#åŒä¼‘æ—¥
 if (local_time.tm_wday == 5) or (local_time.tm_wday == 6):
 	exit(0)
 	
