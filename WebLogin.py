@@ -33,4 +33,6 @@ time.sleep(10)
 elem_signin=driver.find_element_by_class_name('signIn1')
 elem_signin.click()
 
+time.sleep(5)
+
 exit(0)
